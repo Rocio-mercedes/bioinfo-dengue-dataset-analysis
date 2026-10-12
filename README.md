@@ -8,8 +8,9 @@ Autora: **Rocío Sandez**.
 
 ## Los datos
 
-El dataset tiene 300 filas y dos variables categóricas, `Detecta` (SI / NO) y `Serotipo`
-(DEN-1, DEN-2, DEN-4). Cruzadas, dan esta tabla de contingencia:
+El dataset lo provee la cátedra de Bioestadística. Tiene 300 filas y dos variables
+categóricas, `Detecta` (SI / NO) y `Serotipo` (DEN-1, DEN-2, DEN-4). Cruzadas, dan esta
+tabla de contingencia:
 
 | Detecta | DEN-1 | DEN-2 | DEN-4 | Total |
 |---|---|---|---|---|
