@@ -34,12 +34,27 @@ positivo: 232 de 300, el 77 %.
 - Gráficos de distribución de categorías.
 - Armado e interpretación de tablas de contingencia.
 
+## Cómo reproducirlo
+
+El análisis completo está en
+[`notebooks/analisis_dengue.ipynb`](notebooks/analisis_dengue.ipynb): lee el dataset, arma
+la tabla de contingencia, genera los dos gráficos de más arriba y corre las pruebas de
+independencia. GitHub lo muestra ya ejecutado, con todas las salidas, así que se puede leer
+sin instalar nada.
+
+Para correrlo:
+
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/analisis_dengue.ipynb
+```
+
 ## Estructura
 
 ```
 dengue_clase2.txt   el dataset, 300 filas separadas por tabulaciones
-images/             los gráficos de distribución
-notebooks/          el informe: tablas de contingencia y conclusiones
+notebooks/          el análisis (analisis_dengue.ipynb) y el informe original en PDF
+images/             los gráficos, generados por el notebook
 ```
 
 ## Informe

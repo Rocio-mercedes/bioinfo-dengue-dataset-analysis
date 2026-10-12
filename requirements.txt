@@ -1,0 +1,4 @@
+pandas>=1.4
+scipy>=1.7
+matplotlib>=3.4
+notebook>=6.4
